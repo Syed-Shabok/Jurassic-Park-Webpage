@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/jurassic-park');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #386740;
+}
+
+.custom-navbar {
+  background-color: #386740;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  min-height: 50px;
+}
+
+.custom-navbar .logo-text {
+  font-family: 'Jurassic Park', sans-serif;
+  font-size: 38px;
+  line-height: 1;
+  margin-top: 3px;
+}
+
+.custom-navbar .logo img {
+  max-height: 36px;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #fff;
+  line-height: 1.2;
+}
+
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700; 
+}
+
+.hero {
+    height: 100vh;
+background: linear-gradient(358deg,rgba(98, 130, 92, 1) 0%, rgba(68, 105, 0, 1) 0%, rgba(176, 164, 55, 1) 100%);
+}
+
+.custom-btn {
+  background-color: #28a745;    
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #218838;    
+  color: #fff;
+}
+
+.blog-title {
+    color: #386740;
+}
+
+.card {
+  border-radius: 20px !important;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card img {
+  max-height: 300px; 
+  object-fit: cover;
+  width: 100%; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.contact .card {
+  max-width: 600px;
+  width: 100% !important;
+}
